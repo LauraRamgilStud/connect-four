@@ -1,0 +1,31 @@
+#game {
+  display: flex;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(var(--GRID_WIDTH), max-content);
+  gap: 1em;
+  background-color: blue;
+  padding: 2em;
+}
+
+#dash {
+  border: 2px gray solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2em;
+}
+
+#dash h1 {
+  po
+}
+
+.cell {
+  height: 3em;
+  aspect-ratio: 1;
+  background-color: white;
+  border: 1px gray solid;
+  border-radius: 50%;
+}
